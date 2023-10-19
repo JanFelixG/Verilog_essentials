@@ -1,32 +1,50 @@
-# Prerequisites
-*.d
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Other files and folders
+.settings/
 
 # Executables
-*.exe
-*.out
-*.app
+*.swf
+*.air
+*.ipa
+*.apk
+
+#vivado files here
+*.rtd
+*.xdbg
+
+#checkpoints
+*.xci(www.spiritconsortium.org)
+*.xci
+*.dcp
+*.vds
+*.pb
+#All bd comments and layout coordinates are stored within .ui
+*.ui
+*.ooc
+#System Generator
+*.mdl
+*.slx
+*.bxml
+#Simulation logic analyzer
+*.wcfg
+*.coe
+#MIG
+*.prj
+*.mem
+*.jou
+#Reports
+*.rpt
+*.txt
+*.vdi
+#C-files
+*.c
+*.h
+*.elf
+*.bmm
+*.xmp
+
