@@ -38,7 +38,7 @@ end : nextStateLogic
 //3rd process here
 //assign outputs here
 always_comb begin : led_logic
-nextState = currState; // default is to stay in current state
+//nextState = currState; // default is to stay in current state
 unique case (currState)
     start  : o_leds <= 2'b00;
     state0 : o_leds <= 2'b01;
